@@ -30,7 +30,7 @@ twitter_username: brittneythenerd
 github_username:  jekyll
 
 # Build settings
-remote_theme: hyde
+theme: minima
 plugins:
   - jekyll-feed
 
