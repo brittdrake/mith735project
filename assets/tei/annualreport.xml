@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hello World</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information  about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+
+           <p>The Honorable <persName> Muriel E. Bowser </persName>
+          <lb/> Mayor of the District of Columbia
+           <lb/> <location> 1350 Pennsylvania Avenue, N.W., 3rd Floor </location>
+           <lb/> <location> Washington, D.C. 20004 </location>
+         </p>
+
+<p> Dear Mayor <persName> Bowser</persName>:</p>
+
+<p><lb/>This is to inform you of the status of a proposed resolution transmitted to the Council in
+<lb/>accordance with D.C. Official Code § 3-664. The below proposed resolution has been deemed
+<lb/>approved by virtue of the Council having taken no action to disapprove it.</p>
+
+<table rows="2" cols="3">
+ <head></head>
+ <row role="label">
+  <cell role="data">Proposed Resolution</cell>
+  <cell role="data">Title</cell>
+  <cell role="data">Date of Approval</cell>
+ </row>
+ <row role="data">
+  <cell role="label">PR 23-166</cell>
+  <cell role="data">Commission on Nightlife and Culture <persName> Anwan Glover </persName> <lb/>Confirmation Resolution of 2019</cell>
+  <cell role="data">April 28, 2019</cell>
+ </row>
+</table>
+
+<p> If you have any questions please contact me at 202-724-8032.</p>
+
+<p> Sincerely,</p>
+<p> <persName> Phil Mendelson </persName>,<lb/>
+ Chairman of the Council </p>
+
+       </div>
+      </body>
+  </text>
+</TEI>
